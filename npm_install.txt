@@ -1,0 +1,10 @@
+npm install --save @nestjs/sequelize sequelize sequelize-typescript # зависимости для sequelize
+npm install --save pg pg-hstore                                     #для postgres
+npm install --save-dev @types/sequelize                             #типы для sequelize
+npm i nestjs/config                                                 #для настройки конфигурации .env и т.д.
+npm i @nestjs/swagger swagger-ui-express                            #для документирования и графического отображения документации
+npm i @nestjs/jwt bcryptjs                                          #модуль для работы с jwt-токеном и модуль для хеширования (шифрования паролей) 
+npm i class-validator class-transformer                             #для валидации данных
+ 
+
+
